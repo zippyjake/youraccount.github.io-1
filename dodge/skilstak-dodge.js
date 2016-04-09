@@ -13,9 +13,9 @@ DogeDodge.Play.prototype = {
   },
 
   preload: function () {
-    this.load.image('background','assets/background.png');
-    this.load.spritesheet('dodger','assets/dodger.png',46,64,2); // (w,h,f)
-    this.load.spritesheet('dodge','assets/doge.png',64,64,1); // (w,h,f)
+    this.load.image('background','background.png');
+    this.load.spritesheet('dodger','dodger.png',46,64,2); // (w,h,f)
+    this.load.spritesheet('dodge','doge.png',64,64,1); // (w,h,f)
   },
 
   create: function () {
