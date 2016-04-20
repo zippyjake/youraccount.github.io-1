@@ -17,7 +17,7 @@ var CONFIG = {
       "height": 64,
       "scale": 1,
       "gravity": -1200,
-      "outkill": true,
+      "outkill": false,
       "flap": {
         "velocity": 420,
         "frame": 0,
@@ -70,11 +70,11 @@ var CONFIG = {
     } 
   },
   "gameover": {
-    "text": "Game\nOver",
+    "text": "You\nSuck",
     "offset": -150,
     "style": {
-      "font": "100px sans-serif", 
-      "fill": "#b58900",
+      "font": "90px sans-serif", 
+      "fill": "#00e600",
       "align": "center"
     }, 
     "score": {
